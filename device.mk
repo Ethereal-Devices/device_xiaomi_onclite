@@ -3,8 +3,12 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
+
 # Add common definitions for Qualcomm
 $(call inherit-product, hardware/qcom-caf/common/common.mk)
+
+# Add ViPER4AndroidFX
+$(call inherit-product, packages/apps/ViPER4AndroidFX/config.mk)
 
 # AAPT
 PRODUCT_AAPT_CONFIG := normal
