@@ -19,7 +19,7 @@ $(call inherit-product, vendor/xiaomi/onclite/onclite-vendor.mk)
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \
-    $(LOCAL_PATH)/overlay-blaze
+    $(LOCAL_PATH)/overlay-ethereal
 
 PRODUCT_ENFORCE_RRO_TARGETS := *
 PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += \
