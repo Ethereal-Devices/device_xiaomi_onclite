@@ -15,6 +15,7 @@
 #
 
 $(call inherit-product, vendor/xiaomi/onclite/onclite-vendor.mk)
+$(call inherit-product, packages/apps/ViPER4AndroidFX/config.mk)
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
