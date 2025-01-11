@@ -7,3 +7,5 @@ vendor_internal_prop(thermal_engine_prop)
 # Wifi
 vendor_internal_prop(vendor_wifi_config)
 
+# Power HAL
+type power_prop, property_type;
